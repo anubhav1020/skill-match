@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(227, 250, 248);
+    box-sizing: border-box;
+}
+.centered
+{
+    margin-top: 4%;
+    border-style: groove;
+    border-radius: 4%;
+    border-spacing: 20px 30px;
+    border-color:tan;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+   
+}
+.sub-heading{
+    color: rgb(79, 13, 24);
+}
+.heading{
+    position-try: absolute;
+    padding-left: 45.6%;
+    padding-top: 4.8%;
+}
+.head{
+    margin-right: 50;
+}

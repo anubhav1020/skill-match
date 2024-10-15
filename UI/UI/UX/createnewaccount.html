@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new account</title>
+    <link rel="stylesheet" href= "createnewaccount.css">
+
+</head>
+<body>
+    <h1 class="heading" >Skill match</h1>
+    <div class="centered">
+ 
+        <br>
+        <h1>Create new account</h1>
+        <hr>
+        <h2 class="sub-heading">Do it fast or </h2>
+        <h2 class="sub-heading">someone else will go ahead</h2>
+        <form action="save.php">
+
+            <label for="first name"></label>
+            <input value="first name" onfocus="if(this.value=='first name') this.value=' ';"/>
+            <label for="Surname"></label>
+            <input value = "Surname" onfocus="if(this.value=='Surname') this.value=' ';"/>
+            <br>
+            <p>Date of birth ?</p>
+
+            <select aria-placeholder="date">
+                <option number="" value="" style="display: none;">date</option>
+                <option number="1" value="1">1</option>
+
+            </select>
+
+            <select aria-placeholder="month">
+                <option name="" value=""
+                style="display: none;">month</option>
+                <option name="January" value="Jan">January</option>
+                <option name="February" value="Feb">February</option>
+                <option name="March" value="Mar">March</option>
+                <option name="April" value="Apr">April</option>
+	            <option name="May" value="May">May</option>
+                <option name="June" value="Jun">June</option>
+                <option name="July" value="Jul">July</option>
+                <option name="August" value="Aug">August</option>
+	            <option name="September" value="Sep">September</option>
+                <option name="October" value="Oct">October</option>
+                <option name="November" value="Nov">November</option>
+                <option name="December" value="Dec">December</option>
+            </select>
+
+            <select aria-placeholder="year" ><option name="" value="" style="display: none;">year</option></select>
+
+            <br>
+            <p>gender ?</p>
+            <label><button type="button"><input type="radio" name="choice" value="Other">Female</button></label>
+            <label><button type="button"><input type="radio" name="choice" value="Other">Male</button></label>
+            <label><button type="button"><input type="radio" name="choice" value="Other">Other</button></label>
+            <br><br>
+            <label for="email" ></label>
+            <input value="email" type="email" onfocus="if(this.value=='email') this.value=' ';"/>
+            <br><br>
+            <label for="password" ></label>
+            <input value="password" onfocus="if(this.value=='password') this.value=' ';"/>
+            <br><br>
+            <label for="confirm password" ></label>
+            <input value="confirm password" onfocus="if(this.value=='confirm password') this.value=' ';"/>
+            <br><br>
+
+            <button> <a href="http://127.0.0.1:63122/skill-match/UI/UI/UX/interface.html">Sign up</a></button>
+
+        </form>
+
+            <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.<br> 
+                You may receive SMS notifications from us and can opt out at any time.</p>
+
+            <button> <a href="http://127.0.0.1:63122/skill-match/UI/UI/UX/interface.html" >Already have an account ! </a></button>
+
+    
+        
+        
+        
+    </div>
+</body>
+</html>
